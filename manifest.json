@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
   "name": "Page Text Editor",
-  "version": "0.1",
+  "version": "1.0.1",
   "browser_specific_settings": {
     "gecko": {
       "id": "raymond.hsu1227@gmail.com",
-      "strict_min_version": "42.0"
+      "strict_min_version": "55.0"
     }
   },
   "description": "Easy access to editing the texts on any websites with a toggle!",
