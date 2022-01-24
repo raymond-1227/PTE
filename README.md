@@ -19,5 +19,5 @@ It doesn't have much things to do with. Here's a screenshot for the add-on itsel
 2. Click on "Add to Firefox"
 3. It should now exist in your Firefox browser.
 
-## Credits (NuGet Package)
+## Credits
  - Code Help: [Stack Overflow Question](https://stackoverflow.com/questions/70815943/how-do-i-keep-the-checkbox-state-for-firefox-add-on-popup)
