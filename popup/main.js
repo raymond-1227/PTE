@@ -9,11 +9,15 @@ if (toggleStorageState) {
   check.checked = currentToggleState;
 }
 
-if (currentToggleState == true) {
-  document.getElementById("toggleText").textContent = "ENABLED";
-} else {
-  document.getElementById("toggleText").textContent = "DISABLED";
+function setText() {
+  if (currentToggleState == true) {
+    document.getElementById("toggleText").textContent = "ENABLED";
+  } else {
+    document.getElementById("toggleText").textContent = "DISABLED";
+  }
 }
+
+setText();
 
 check.onclick = function () {
   if (this.checked) {
@@ -29,12 +33,8 @@ check.onclick = function () {
       code: `document.designMode = "off"`,
     });
   }
-  
-  if (currentToggleState == true) {
-    document.getElementById("toggleText").textContent = "ENABLED";
-  } else {
-    document.getElementById("toggleText").textContent = "DISABLED";
-  }
+
+  setText();
 
   localStorage.setItem(
     "toggleStorageState",
