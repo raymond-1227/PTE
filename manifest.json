@@ -1,32 +1,28 @@
 {
-  "manifest_version": 2,
   "name": "Page Text Editor",
-  "version": "1.0",
-  "browser_specific_settings": {
-    "gecko": {
-      "id": "raymond.hsu1227@gmail.com",
-      "strict_min_version": "55.0"
-    }
-  },
-  "description": "Easy access to editing the texts on any websites with a toggle!",
-  "permissions": ["activeTab"],
+  "description": "Adds a browser action icon to the toolbar. Click the button to choose a beast. The active tab's body content is then replaced with a picture of the chosen beast. See https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Examples#beastify",
+  "manifest_version": 2,
+  "version": "2.1",
+  "homepage_url": "https://github.com/raymond-1227/PTE",
   "icons": {
     "48": "icons/pte-48.png",
     "96": "icons/pte-96.png"
   },
+  "permissions": ["activeTab"],
   "content_scripts": [
     {
       "matches": ["<all_urls>"]
     }
   ],
-  "background": {
-    "scripts": ["main.js"]
-  },
   "browser_action": {
-    "default_icon": {
-      "19": "buttons/pte-19.png",
-      "38": "buttons/pte-38.png"
-    },
-    "default_title": "Edit Texts on Screen"
+    "default_icon": "icons/pte-inactive-32.png",
+    "default_title": "Edit texts on screen",
+    "default_popup": "popup/popup.html"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "raymond.hsu1227@gmail.com",
+      "strict_min_version": "67.0"
+    }
   }
 }
