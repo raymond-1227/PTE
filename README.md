@@ -6,7 +6,9 @@ A project to learn about native JavaScript, also something that finall
 
 ## Overview
 It doesn't have much things to do with. Here's a screenshot for the add-on itself.
+
 ![Screenshot](https://i.imgur.com/EUYjIQY.jpg)
+![Screenshot](https://i.imgur.com/BZf7KbK.jpg)
 
 ## Features
 - A toggle to enable/disable text editing on screen
