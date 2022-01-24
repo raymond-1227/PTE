@@ -21,3 +21,4 @@ It doesn't have much things to do with. Here's a screenshot for the add-on itsel
 
 ## Credits
  - Code Help: [Stack Overflow Question](https://stackoverflow.com/questions/70815943/how-do-i-keep-the-checkbox-state-for-firefox-add-on-popup)
+ - CSS Toggle Switch: [W3Schools](https://www.w3schools.com/howto/howto_css_switch.asp)
