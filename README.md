@@ -2,7 +2,7 @@
 Edit texts on screen with a toggle!
 
 ## About
-A project to learn about native JavaScript, also something that finall
+A project to learn about native JavaScript, also finally something that I made could work for everyone.
 
 ## Overview
 It doesn't have much things to do with. Here's a screenshot for the add-on itself.
