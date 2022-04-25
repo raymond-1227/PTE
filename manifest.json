@@ -2,7 +2,7 @@
   "name": "Page Text Editor",
   "description": "Adds a browser action icon to the toolbar. Click the button to choose a beast. The active tab's body content is then replaced with a picture of the chosen beast. See https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Examples#beastify",
   "manifest_version": 2,
-  "version": "2.2.1",
+  "version": "2.3",
   "homepage_url": "https://github.com/raymond-1227/PTE",
   "icons": {
     "48": "icons/pte-48.png",

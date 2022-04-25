@@ -22,14 +22,20 @@ setText();
 check.onclick = function () {
   if (this.checked) {
     currentToggleState = true;
-    browser.browserAction.setIcon({ path: "/icons/pte-32.png" });
-    browser.tabs.executeScript({
+    chrome.browserAction.setIcon({ path: "/icons/pte-32.png" });
+    chrome.browserAction.setBadgeText({ text: "on" });
+    chrome.browserAction.setBadgeTextColor({ color: "white" });
+    chrome.browserAction.setBadgeBackgroundColor({ color: "#61b157" });
+    chrome.tabs.executeScript({
       code: `document.designMode = "on"`,
     });
   } else {
     currentToggleState = false;
-    browser.browserAction.setIcon({ path: "/icons/pte-inactive-32.png" });
-    browser.tabs.executeScript({
+    chrome.browserAction.setIcon({ path: "/icons/pte-inactive-32.png" });
+    chrome.browserAction.setBadgeText({ text: "off" });
+    chrome.browserAction.setBadgeTextColor({ color: "white" });
+    chrome.browserAction.setBadgeBackgroundColor({ color: "#db574f" });
+    chrome.tabs.executeScript({
       code: `document.designMode = "off"`,
     });
   }
